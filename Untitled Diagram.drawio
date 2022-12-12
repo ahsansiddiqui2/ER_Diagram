@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-12T17:39:52.425Z" agent="5.0 (Windows)" etag="aN77fhT-QIVl5lOhrDOm" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-12T17:55:05.515Z" agent="5.0 (Windows)" etag="ID4hOGpMBHTp_BnulCoy" version="20.6.2" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1929" dy="1040" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1335" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -234,10 +234,10 @@
             <mxPoint x="530" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_yb1dioon_LLdfzWxbmb-35" value="" style="endArrow=none;html=1;rounded=0;fontSize=20;jumpSize=6;" edge="1" parent="1">
+        <mxCell id="_yb1dioon_LLdfzWxbmb-35" value="" style="endArrow=none;html=1;rounded=0;fontSize=20;jumpSize=6;exitX=0;exitY=0;exitDx=100;exitDy=60;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_yb1dioon_LLdfzWxbmb-43" target="_yb1dioon_LLdfzWxbmb-41">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="260" y="350" as="sourcePoint" />
-            <mxPoint x="420" y="350" as="targetPoint" />
+            <mxPoint x="160" y="551.47" as="sourcePoint" />
+            <mxPoint x="320" y="551.47" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_yb1dioon_LLdfzWxbmb-37" value="" style="endArrow=none;html=1;rounded=0;fontSize=20;jumpSize=6;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_yb1dioon_LLdfzWxbmb-30" target="_yb1dioon_LLdfzWxbmb-38">
@@ -257,6 +257,9 @@
             <mxPoint x="220" y="620" as="sourcePoint" />
             <mxPoint x="380" y="620" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_yb1dioon_LLdfzWxbmb-43" value="Weak attribute" style="shape=note;size=20;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="10" y="560" width="100" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
