@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-20T05:46:57.013Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="3RT4D9UKuV95bd2cIhwn" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-20T05:47:39.142Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="fzqhbK4-tqnYT3ppuVKR" version="21.1.1" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="880" dy="442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -64,6 +64,15 @@
         </mxCell>
         <mxCell id="6qtIgJVQ0cVYcs7NnihY-3" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
           <mxGeometry x="130" y="60" width="22.33" height="335" as="geometry" />
+        </mxCell>
+        <mxCell id="6qtIgJVQ0cVYcs7NnihY-4" value="Student" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1.170000000000016" y="20" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6qtIgJVQ0cVYcs7NnihY-5" value="&lt;div&gt;Tutor&lt;/div&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="52.33000000000001" y="20" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6qtIgJVQ0cVYcs7NnihY-6" value="Admin" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="102.33000000000001" y="20" width="80" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
