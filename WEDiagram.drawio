@@ -1,9 +1,81 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.13">
-  <diagram name="Page-1" id="8B-qWynwFXAM56m6BUIM">
-    <mxGraphModel>
+  <diagram name="Lost &amp; Found System Architecture" id="8B-qWynwFXAM56m6BUIM">
+    <mxGraphModel dx="3265" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1080" pageHeight="1080" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="d06QQW2QKPZp5pKREGD9-1" value="Browser/Client (Web/Mobile)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-970" y="70" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d06QQW2QKPZp5pKREGD9-2" value="Web Server (Nginx/Apache)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="70" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d06QQW2QKPZp5pKREGD9-3" value="PHP Application (Core Modules)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="70" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d06QQW2QKPZp5pKREGD9-4" value="User Management (Authentication)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="190" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d06QQW2QKPZp5pKREGD9-5" value="Item Management (Post, Update, Delete)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="190" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d06QQW2QKPZp5pKREGD9-6" value="Search Engine Module" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="260" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d06QQW2QKPZp5pKREGD9-9" value="Database (MySQL/MariaDB)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="70" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d06QQW2QKPZp5pKREGD9-10" value="File Storage (Uploaded Images)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="185" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d06QQW2QKPZp5pKREGD9-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" edge="1" parent="1" source="d06QQW2QKPZp5pKREGD9-1" target="d06QQW2QKPZp5pKREGD9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d06QQW2QKPZp5pKREGD9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" edge="1" parent="1" source="d06QQW2QKPZp5pKREGD9-2" target="d06QQW2QKPZp5pKREGD9-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d06QQW2QKPZp5pKREGD9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" edge="1" parent="1" source="d06QQW2QKPZp5pKREGD9-3" target="d06QQW2QKPZp5pKREGD9-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d06QQW2QKPZp5pKREGD9-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;curved=1;" edge="1" parent="1" source="d06QQW2QKPZp5pKREGD9-3" target="d06QQW2QKPZp5pKREGD9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d06QQW2QKPZp5pKREGD9-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;curved=1;" edge="1" parent="1" source="d06QQW2QKPZp5pKREGD9-3" target="d06QQW2QKPZp5pKREGD9-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d06QQW2QKPZp5pKREGD9-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;curved=1;" edge="1" parent="1" source="d06QQW2QKPZp5pKREGD9-3" target="d06QQW2QKPZp5pKREGD9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d06QQW2QKPZp5pKREGD9-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" edge="1" parent="1" source="d06QQW2QKPZp5pKREGD9-5" target="d06QQW2QKPZp5pKREGD9-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d06QQW2QKPZp5pKREGD9-22" value="Web Browser (HTML/CSS)" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="350" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d06QQW2QKPZp5pKREGD9-23" style="endArrow=block;html=1;" edge="1" parent="1" source="d06QQW2QKPZp5pKREGD9-22" target="d06QQW2QKPZp5pKREGD9-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d06QQW2QKPZp5pKREGD9-24" value="Web Server (Apache/Nginx + PHP)" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="480" y="440" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d06QQW2QKPZp5pKREGD9-25" style="endArrow=block;html=1;" edge="1" parent="1" source="d06QQW2QKPZp5pKREGD9-24" target="d06QQW2QKPZp5pKREGD9-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d06QQW2QKPZp5pKREGD9-26" value="&lt;b&gt;&lt;u&gt;Application Layer&lt;/u&gt;&lt;/b&gt;&lt;br&gt;- Login/Register&lt;br&gt;- Report Lost/Found&lt;br&gt;- Match Engine&lt;br&gt;- Admin Panel" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="480" y="520" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="d06QQW2QKPZp5pKREGD9-27" style="endArrow=block;html=1;" edge="1" parent="1" source="d06QQW2QKPZp5pKREGD9-26" target="d06QQW2QKPZp5pKREGD9-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d06QQW2QKPZp5pKREGD9-28" value="Database (MySQL)&#xa;- Users&#xa;- Lost Items&#xa;- Found Items&#xa;- Matches" style="shape=cylinder;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="290" y="660" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="d06QQW2QKPZp5pKREGD9-29" style="endArrow=block;html=1;" edge="1" parent="1" source="d06QQW2QKPZp5pKREGD9-26" target="d06QQW2QKPZp5pKREGD9-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d06QQW2QKPZp5pKREGD9-30" value="File Storage (Uploaded Images)" style="shape=folder;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="650" y="650" width="200" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
