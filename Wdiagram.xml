@@ -1,0 +1,56 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Lost and Found System Architecture" id="fdyosr4vRZ4XDJm0hcfG">
+    <mxGraphModel dx="1088" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Web Browser -->
+        <mxCell id="2" value="Web Browser (HTML/CSS)" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="360" y="20" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrow to Web Server -->
+        <mxCell id="3" style="endArrow=block;html=1;" edge="1" parent="1" source="2" target="4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Web Server -->
+        <mxCell id="4" value="Web Server (Apache/Nginx + PHP)" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="360" y="100" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrow to App Layer -->
+        <mxCell id="5" style="endArrow=block;html=1;" edge="1" parent="1" source="4" target="6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Application Layer -->
+        <mxCell id="6" value="Application Layer&#xa;- Login/Register&#xa;- Report Lost/Found&#xa;- Match Engine&#xa;- Admin Panel" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="360" y="180" width="200" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrow to Database -->
+        <mxCell id="7" style="endArrow=block;html=1;" edge="1" parent="1" source="6" target="8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Database -->
+        <mxCell id="8" value="Database (MySQL)&#xa;- Users&#xa;- Lost Items&#xa;- Found Items&#xa;- Matches" style="shape=cylinder;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="180" y="300" width="200" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrow to File Storage -->
+        <mxCell id="9" style="endArrow=block;html=1;" edge="1" parent="1" source="6" target="10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- File Storage -->
+        <mxCell id="10" value="File Storage (Uploaded Images)" style="shape=folder;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="540" y="300" width="200" height="80" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
